@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-24T09:18:33.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kZb4Qvl6Oo8mbH6GIPhm" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-24T09:22:27.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="8DLkHVwZN3EC5a6SV5ht" version="24.6.4" type="github">
   <diagram name="第 1 页" id="qAi6lv42CkGOTcoiDT95">
     <mxGraphModel dx="1195" dy="622" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,6 +186,27 @@
         </mxCell>
         <mxCell id="rw2UG67hxd4hKxYkFQ7z-70" value="Channel线程" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF2CC;" vertex="1" parent="1">
           <mxGeometry x="70" y="1288" width="96" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-71" value="BlockChain" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1204" width="68" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-72" value="Session" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497" y="1204" width="68" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-73" value="Sealer线程" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1397" width="96" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-74" value="Consensus线程" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="373" y="1400" width="96" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-75" value="P2P线程" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="604" y="1250" width="96" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-76" value="Sync线程" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1139" width="96" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-77" value="Verify线程" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1246" width="63" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

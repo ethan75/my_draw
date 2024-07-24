@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-24T09:07:00.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="y1B02V7ov0LQ-ajz95vU" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-24T09:18:33.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kZb4Qvl6Oo8mbH6GIPhm" version="24.6.4" type="github">
   <diagram name="第 1 页" id="qAi6lv42CkGOTcoiDT95">
-    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="rw2UG67hxd4hKxYkFQ7z-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;initConsensus&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="170" y="800" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rw2UG67hxd4hKxYkFQ7z-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;initEvenLogFilter&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;initEvenLogFilter&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="170" y="850" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rw2UG67hxd4hKxYkFQ7z-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rw2UG67hxd4hKxYkFQ7z-21" target="rw2UG67hxd4hKxYkFQ7z-22">
@@ -177,6 +177,15 @@
         </mxCell>
         <mxCell id="rw2UG67hxd4hKxYkFQ7z-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rw2UG67hxd4hKxYkFQ7z-22" target="rw2UG67hxd4hKxYkFQ7z-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-68" value="RPC线程" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1139" width="96" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-69" value="TxPool" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198.5" y="1208" width="68" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="rw2UG67hxd4hKxYkFQ7z-70" value="Channel线程" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1288" width="96" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

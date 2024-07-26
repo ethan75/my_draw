@@ -720,7 +720,7 @@
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-78" value="&lt;div&gt;处理定时任务&lt;/div&gt;&lt;div&gt;PBFTEngine::checkTimeout()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
           <mxGeometry x="186.5" y="2943" width="183" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-79" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PBFT共识引擎线程:循环运行PBFTEngine::workLoop()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-79" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PBFT共识引擎线程:循环运行PBFTEngine::workLoop()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="-6" y="2742" width="183" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-81" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-79" target="xCXwrp4IzFHrZe-hl9Yo-1">

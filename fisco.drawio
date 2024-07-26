@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.4">
   <diagram name="第 1 页" id="qAi6lv42CkGOTcoiDT95">
-    <mxGraphModel dx="886" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1475" dy="649" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -465,13 +465,13 @@
             <mxPoint x="319" y="2594" as="sourcePoint" />
             <mxPoint x="419" y="2557" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="350" y="2679" />
+              <mxPoint x="356" y="2673" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-12" value="Commit请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xCXwrp4IzFHrZe-hl9Yo-11">
           <mxGeometry x="-0.0777" y="-8" relative="1" as="geometry">
-            <mxPoint x="24" y="-10" as="offset" />
+            <mxPoint x="42" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-2" target="xCXwrp4IzFHrZe-hl9Yo-6">
@@ -549,10 +549,13 @@
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-32" target="xCXwrp4IzFHrZe-hl9Yo-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-32" value="&lt;div&gt;Commit请求是否有效&lt;/div&gt;&lt;div&gt;isValidCommit()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-32" value="&lt;div&gt;缓存CommitReq请求&lt;/div&gt;&lt;div&gt;addCommit()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="787" y="2669" width="156" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-33" value="&lt;div&gt;Commit请求是否有效&lt;/div&gt;&lt;div&gt;isValidCommit()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-33" target="xCXwrp4IzFHrZe-hl9Yo-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-33" value="&lt;div&gt;缓存ViewChange请求&lt;/div&gt;&lt;div&gt;addViewChangeReq()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="787" y="2819" width="156" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-42" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-21">
@@ -614,8 +617,8 @@
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-52" value="&lt;div&gt;缓存执行后的区块&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;addPrepareReq()&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="978" y="2376" width="156" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-54" value="&lt;div&gt;生成Sign包，并广播消息&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;broadcastSignReq()&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2376" width="156" height="50" as="geometry" />
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-54" value="&lt;div&gt;广播Sign请求：达到准备状态&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;broadcastSignReq()&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2376" width="216" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-52" target="xCXwrp4IzFHrZe-hl9Yo-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -631,11 +634,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-56" value="是否收到2f+1个Sign请求" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-56" value="是否收到2f+1个Sign请求&lt;div&gt;checkAndCommit()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="973" y="2505" width="156" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-58" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;广播Commit请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;broadcastCommitReq()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1172" y="2505" width="156" height="50" as="geometry" />
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-58" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;广播Commit请求：到达提交区块状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;broadcastCommitReq()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1172" y="2505" width="258" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-61" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.556;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -650,6 +653,14 @@
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-62" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xCXwrp4IzFHrZe-hl9Yo-61">
           <mxGeometry x="-0.0151" y="18" relative="1" as="geometry">
             <mxPoint x="-10" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-63" target="xCXwrp4IzFHrZe-hl9Yo-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-74" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xCXwrp4IzFHrZe-hl9Yo-69">
+          <mxGeometry x="-0.2418" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-63" value="&lt;div&gt;是否收到2f+1个Commit请求&lt;/div&gt;&lt;div&gt;checkAndSave()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -669,6 +680,38 @@
         <mxCell id="xCXwrp4IzFHrZe-hl9Yo-67" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xCXwrp4IzFHrZe-hl9Yo-66">
           <mxGeometry x="-0.0151" y="18" relative="1" as="geometry">
             <mxPoint x="-10" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-68" value="&lt;div&gt;新区块共识成功，提交到DB落盘&lt;/div&gt;&lt;div&gt;commitBlock()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1213" y="2669" width="206" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-70" target="xCXwrp4IzFHrZe-hl9Yo-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-75" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xCXwrp4IzFHrZe-hl9Yo-73">
+          <mxGeometry x="0.1108" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-70" value="&lt;div&gt;是否收到2f+1个Commit请求&lt;/div&gt;&lt;div&gt;checkAndChangeView()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2819" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-71" value="达成共识，更新视图" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1223" y="2819" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-76" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.742;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xCXwrp4IzFHrZe-hl9Yo-70" target="xCXwrp4IzFHrZe-hl9Yo-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1083" y="2679" as="sourcePoint" />
+            <mxPoint x="367" y="2702" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="536" y="2771" />
+              <mxPoint x="355" y="2701" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCXwrp4IzFHrZe-hl9Yo-77" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xCXwrp4IzFHrZe-hl9Yo-76">
+          <mxGeometry x="-0.0151" y="18" relative="1" as="geometry">
+            <mxPoint x="-8" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
